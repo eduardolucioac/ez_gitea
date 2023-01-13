@@ -254,13 +254,13 @@ There are many and many of ways to integrate ez_gitea (gitea) with your GUI. The
 ```
 [Desktop Entry]
 Comment=Gitea is a community managed lightweight code hosting solution written in Go. It is published under the MIT license.
-Exec=bash /home/<YOUR_USER>/.ez_gitea/script/gitea.bash
+Exec=bash /home/<YOUR_USER>/.ez_gitea/script/ez_gitea.bash
 GenericName=A painless self-hosted Git service.
 Icon=/home/<YOUR_USER>/.ez_gitea/icon/gitea.svg
 Name=Gitea
 ```
 
-**TIP:** If your GUI is KDE and you want to ensure that the application starts up maximized, replace the command in *Exec* by `kstart5 --maximize bash /home/<YOUR_USER>/.ez_gitea/script/gitea.bash`.
+**TIP:** If your GUI is KDE and you want to ensure that the application starts up maximized, replace the command in *Exec* by `kstart5 --maximize bash /home/<YOUR_USER>/.ez_gitea/script/ez_gitea.bash`.
 
 # About
 
