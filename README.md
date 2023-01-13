@@ -2,7 +2,7 @@
 
 <img src="./icon/gitea.svg" height="250">
 
-The purpose of this project is to allow you to easily install and use Gitea as a desktop application.
+The purpose of this project is to allow you to **easily install and use Gitea like a desktop application**.
 
 This project was initially thought to be used with the Manjaro and Ubuntu Linux distributions, but with a few adaptations it can be used with any other platform that uses docker-compose - although a Linux platform is necessary if you want to enjoy all the facilities.
 
