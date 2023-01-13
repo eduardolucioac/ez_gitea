@@ -222,6 +222,7 @@ git clone https://github.com/eduardolucioac/ez_gitea.git
 **TIP:** Make the ez_gitea folder hidden to improve your home folder organization and protect your setup...
 
 ```
+cd ~
 mv ~/ez_gitea ~/.ez_gitea
 ```
 .
