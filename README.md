@@ -232,13 +232,13 @@ mv ~/ez_gitea ~/.ez_gitea
 Use the environment variables in the *SETTINGS* file (project root) to configure Gitea...
 
 ```
-nano "~/.ez_gitea/SETTINGS"
+nano ~/.ez_gitea/SETTINGS
 ```
 
 ## Start Gitea
 
 ```
-bash "~/.ez_gitea/script/ez_gitea.bash"
+bash ~/.ez_gitea/script/ez_gitea.bash
 ```
 
 **Done!** 😉
