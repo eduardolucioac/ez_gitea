@@ -1,6 +1,6 @@
 # ez_gitea - A painless and easy Gitea setup
 
-<img src="./icon/gitea.svg" height="350">
+<img src="./icon/gitea.svg" height="250">
 
 This project is intended to allow you to easily install and use Gitea on Manjaro and Ubuntu Linux distributions. With few adaptations, this project can be used on any other platform that uses docker-compose, although a Linux platform is required if you want to enjoy all the facilities.
 
