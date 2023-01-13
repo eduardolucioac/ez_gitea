@@ -1,0 +1,39 @@
+version: '3'
+networks:
+  gitea_ntwk:
+    external: false
+services:
+  gitea_srv:
+    image: 'gitea/gitea:1.18.0'
+    restart: always
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+      - GITEA__database__DB_TYPE=mysql
+      - 'GITEA__database__HOST=gitea_dbms:3306'
+      - GITEA__database__NAME=gitea
+      - GITEA__database__USER=gitea
+      - 'GITEA__database__PASSWD=${GITEA__DATABASE__PASSWD}'
+    networks:
+      - gitea_ntwk
+    volumes:
+      - './your_volumes/gitea_srv:/data'
+      - '/etc/timezone:/etc/timezone:ro'
+      - '/etc/localtime:/etc/localtime:ro'
+    ports:
+      - '3000:3000'
+      - '222:22'
+    depends_on:
+      - gitea_dbms
+  gitea_dbms:
+    image: 'mysql:8'
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=gitea
+      - MYSQL_USER=gitea
+      - 'MYSQL_PASSWORD=${MYSQL_PASSWORD}'
+      - MYSQL_DATABASE=gitea
+    networks:
+      - gitea_ntwk
+    volumes:
+      - './your_volumes/gitea_dbms:/var/lib/mysql'

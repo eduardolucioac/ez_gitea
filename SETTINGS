@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# General Settings
+
+## <SOME_SETTING>
+# <SOME_SETTING>=<SOME_VALUE>
+
+# Gitea service
+
+## Password
+GITEA__DATABASE__PASSWD="gitea"
+
+# MySQL DBMS
+
+## Password
+MYSQL_PASSWORD="gitea"
