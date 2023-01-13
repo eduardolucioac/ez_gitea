@@ -50,8 +50,6 @@ Install Google Chrome...
 apt-get -y install google-chrome-stable
 ```
 
-[Ref(s).: https://www.edivaldobrito.com.br/como-instalar-o-google-chrome-no-ubuntu-20-04-via-repositorio-oficial/ ]
-
 ### If Manjaro
 
 ```
