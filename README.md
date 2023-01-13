@@ -6,6 +6,8 @@ The purpose of this project is to allow you to **easily install and use Gitea li
 
 This project was initially thought to be used with the Manjaro and Ubuntu Linux distributions, but with a few adaptations it can be used with any other platform that uses docker-compose - although a Linux platform is necessary if you want to enjoy all the facilities.
 
+**IMPORTANT:** My life, my work and my passion is free software. Corrections, tweaks and improvements are very welcome (**pull requests** 😉)! Please consider giving us a ⭐, fork, support this project or even visit our professional profile (see [About](#about)). **Thanks!** 🤗
+
 # Table of Contents
 
 - [Install ez_gitea](#install-ez_gitea)
