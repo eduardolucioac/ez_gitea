@@ -8,7 +8,7 @@ The Gitea service works integrated to the "desktop application", that is, it wor
 
 In the end, basically, what you will have is a "Github" running locally on your desktop.
 
-**Cool, isn't it?** 😉
+**Cool, isn't it?** 😎
 
 <img src="./image/desktop_app.png" height="350">
 
