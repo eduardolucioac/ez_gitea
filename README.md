@@ -10,6 +10,8 @@ In the end, basically, what you will have is a "Github" running locally on your 
 
 **Cool, isn't it?** 😉
 
+<img src="./image/desktop_app.png" height="350">
+
 This project was initially thought to be used with the Manjaro and Ubuntu Linux distributions, but with a few adaptations it can be used with any other platform that uses docker-compose - although a Linux platform is necessary if you want to enjoy all the facilities.
 
 **IMPORTANT:** My life, my work and my passion is free software. Corrections, tweaks and improvements are very welcome (**pull requests** 😉)! Please consider giving us a ⭐, fork, support this project or even visit our professional profile (see [About](#about)).
